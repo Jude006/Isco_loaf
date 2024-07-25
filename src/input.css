@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{ 
+    section{
+        @apply md:px-10 px-2 md:py-16 py-6
+    }
+
+}
